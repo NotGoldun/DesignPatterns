@@ -81,7 +81,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\Users\C Programiranje\Desktop\Desktop\domsut\DesignPatterns\DesignPatterns\externals\bin;C:\Users\C Programiranje\Desktop\Desktop\domsut\DesignPatterns\DesignPatterns\externals\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-graphics-d.lib	;sfml-window-d.lib	;sfml-audio-d.lib	;sfml-network-d.lib	;sfml-system-d.lib	;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfml-graphics-d.lib	;sfml-window-d.lib	;sfml-audio-d.lib	;sfml-network-d.lib	;sfml-system-d.lib	;%(AdditionalDependencies);opengl32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -107,7 +107,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>C:\Users\C Programiranje\Desktop\Desktop\domsut\DesignPatterns\DesignPatterns\externals\bin;C:\Users\C Programiranje\Desktop\Desktop\domsut\DesignPatterns\DesignPatterns\externals\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-graphics.lib	;sfml-window.lib	;sfml-audio.lib	;sfml-network.lib	;sfml-system.lib	;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfml-graphics.lib	;sfml-window.lib	;sfml-audio.lib	;sfml-network.lib	;sfml-system.lib	;%(AdditionalDependencies);opengl32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
