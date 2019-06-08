@@ -4,6 +4,7 @@
 #include "Rectangle.h"
 
 
+
 int main()
 {
 	Window::getInstance()->update();

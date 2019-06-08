@@ -43,6 +43,15 @@ void Window::update()
 			gameState->instantiateObject("Rectangle");
 		}
 
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Q))
+		{
+			gameState->changeState(GAME_OVER);
+		}
+
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+		{
+			gameState->changeState(GAME_RESTARTED);
+		}
 
 		gameState->update();
 		this->renderContext->clear();
