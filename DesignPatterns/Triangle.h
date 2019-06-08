@@ -1,12 +1,13 @@
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
-#include "Shape.h"
+#include "GameObject.h"
 
 class Triangle :
-	public Shape
+	public GameObject
 {
 public:
 	void update();
+
 	Triangle();
 	~Triangle();
 };
